@@ -3,4 +3,6 @@
     <string name="app_name">ProjetAndroid</string>
     <string name="activity_main_button_editName">Editer</string>
     <string name="activity_main_textView_name">nom :</string>
+    <string name="activity_form_button_confirmName">Valider</string>
+    <string name="activity_form_editText_name">Nom</string>
 </resources>

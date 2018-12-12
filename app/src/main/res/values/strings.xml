@@ -2,4 +2,6 @@
     <string name="app_name">ProjetAndroid</string>
     <string name="activity_main_button_editName">Edit</string>
     <string name="activity_main_textView_name">name :</string>
+    <string name="activity_form_button_confirmName">Confirm</string>
+    <string name="activity_form_editText_name">Name</string>
 </resources>
