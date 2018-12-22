@@ -30,4 +30,6 @@ public class DataManager {
     public void  addItem(String name){
         nameList.add(name);
     }
+
+    public void removeItem(String name) { nameList.remove(name);}
 }

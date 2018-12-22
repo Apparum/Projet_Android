@@ -4,10 +4,12 @@ import android.content.Intent;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
+import android.view.ViewParent;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -55,5 +57,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
         }
+    }
+
+    public void deleteEntry(View view){
+        Button button = (Button) view;
+        CardView cardView =(CardView) button.getParent();
+        TextView textView = (TextView) cardView.getChildAt(1);
+        String name = textView.getText().toString();
+        DataManager.getInstance().removeItem(name);
+        nameListAdapter.updateList(DataManager.getInstance().getNameList());
     }
 }
