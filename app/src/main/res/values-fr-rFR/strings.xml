@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Mon projet Android</string>
-    <string name="activity_main_button_editName">Editer</string>
-    <string name="activity_main_textView_name">nom :</string>
+    <string name="activity_main_button_editName">Ajouter une tâche</string>
     <string name="activity_form_button_confirmName">Valider</string>
-    <string name="activity_form_editText_name">Nom</string>
+    <string name="activity_form_editText_name">Tâche</string>
+    <string name="activity_main_textView_title">Liste de tâches</string>
 </resources>

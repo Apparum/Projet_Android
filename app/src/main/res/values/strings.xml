@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">My Androit project</string>
-    <string name="activity_main_button_editName">Edit</string>
-    <string name="activity_main_textView_name">name :</string>
+    <string name="activity_main_button_editName">Add Task</string>
     <string name="activity_form_button_confirmName">Confirm</string>
-    <string name="activity_form_editText_name">Name</string>
+    <string name="activity_form_editText_name">Task</string>
+    <string name="activity_main_textView_title">To Do List</string>
 </resources>
