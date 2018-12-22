@@ -37,7 +37,7 @@ public class FormActivity extends AppCompatActivity {
             DataManager.getInstance().addItem(name);
         } else {
             Toast.makeText(this,
-                    "Veuillez saisir votre nom",
+                    "Veuillez saisir une tâche",
                     Toast.LENGTH_SHORT).show();
         }
         finish();
